@@ -5,7 +5,9 @@ All commands assume to be run by the root user.
 ##Create user groups and users
 
 groupadd ms          //ms is the username, which can be modified to www
+
 useradd -g ms ms
+
 
 root@Dre:~# visudo
 ms ALL=(ALL:ALL) ALL   //root ALL=(ALL:ALL) ALL Add this line below
